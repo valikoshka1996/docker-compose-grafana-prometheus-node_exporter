@@ -6,12 +6,12 @@
 - **Runs Docker Compose**: Starts all services in containers.
 
 ### Execution:
-1. Save the script to a file, for example, `install_monitoring.sh`.
+1. Save the script to a file, for example, `install.sh`.
 2. Make the file executable:
    ```bash
-   chmod +x install_monitoring.sh
+   chmod +x install.sh
 3. Run script
-   `./install_monitoring.sh`
+   `./install.sh`
 After running the script, the monitoring system will be available on the following ports:
 
 Prometheus: http://localhost:9090
